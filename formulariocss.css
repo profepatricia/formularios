@@ -1,0 +1,17 @@
+.cajaformulario{
+    background-color:aqua;
+    border-radius: 30px;
+    width: 90%;
+    padding: 20px;
+    align-self: auto;
+    flex-direction: column;
+}
+
+#nombre .{
+    padding: 20px;
+    align-self: auto;
+}
+#apellido{
+    padding: 20px;
+    align-self: auto;
+}

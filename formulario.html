@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulariocss.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <div class="cajaformulario">
+    <form action="https://formspree.io/f/xeqvwkal"
+    method="POST">
+        <label id="nombre" >
+            ingresá tu nombre
+            <input type="text" name="nombre">
+
+        </label>
+         
+        <label id="apellido">
+            ingresa tu apellido
+            <input type="text" name="apellido">
+
+        </label>
+        <label id="edad">
+            ingresa su edad
+            <input type="number" name="edad">
+
+        </label>
+        <label id="niveleducativo">
+            Seleccioná tu nivel educativo
+            <select name="educacion">
+                <option value="primaria" >Primaria</option>
+                <option value="secundaria"> Secundaria </option>
+                <option value="terciario"> terciario</option>
+                <option value="universitario">universitario </option>
+            </select>
+        </label>
+
+        <p>¿Estás de acuerdo con ir a la escuela?:</p>
+        <input type="radio" id="escuelasi" name="escuela" value="si">
+        <label for="escuelasi">Si</label><br>
+        <input type="radio" id="escuelano" name="escuela" value="no">
+        <label for="escuelano">No</label><br>
+        
+
+        <p>Idiomas:</p>
+        <input type="checkbox" id="ingles" name="idiomaingles" value="ingles">
+        <label for="ingles">Inglés</label><br>
+        <input type="checkbox" id="portugues" name="idiomaportugues" value="CSS">
+        <label for="portugues">Portugués</label><br>
+        <input type="checkbox" id="otro" name="idiomaotros" value="JavaScript">
+        <label for="otro">otros</label> 
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
